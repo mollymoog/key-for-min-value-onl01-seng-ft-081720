@@ -4,5 +4,5 @@ def key_for_min_value(name_hash)
     small << value
   end
   smallest = small.sort.shift
-  name_hash[,smallest]
+  name_hash.select[,smallest]
 end
