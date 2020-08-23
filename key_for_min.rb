@@ -3,5 +3,5 @@ def key_for_min_value(name_hash)
   name_hash.collect do |item, value|
     small << value
   end
-  small.sort
+  small.sort.shift
 end
