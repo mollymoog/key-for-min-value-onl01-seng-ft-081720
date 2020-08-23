@@ -5,5 +5,5 @@ def key_for_min_value(name_hash)
   end
   smallest_value = small.sort.shift
   name_hash.invert[smallest_value]
-  end
+
 end
