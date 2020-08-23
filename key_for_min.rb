@@ -1,5 +1,5 @@
 def key_for_min_value(name_hash)
-  smallest = ""
+  smallest = 
   name_hash.each do |item, value|
     if value > smallest
       smallest = value
