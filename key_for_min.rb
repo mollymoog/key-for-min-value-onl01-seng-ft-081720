@@ -3,7 +3,7 @@ def key_for_min_value(name_hash)
   name_hash.collect do |item, value|
     small << value
   end
-  smallest = small.sort.shift
+  smallest_value = small.sort.shift
   name_hash.select do |item, value| 
     if value == smallest
       item
